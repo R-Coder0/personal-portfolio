@@ -1,5 +1,5 @@
 <h1> My Portfolio Website</h1>
-To Visit Click Here:-https://r-coder0.github.io/Personal_Portfolio/
+To Visit Click Here:-https://r-coder0.github.io/personal-portfolio/
 
 <h3>This is a fully responsive portfolio website create using React.js </h3>
 <h1>Creation</h1>
