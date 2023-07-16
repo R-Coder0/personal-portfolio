@@ -1,0 +1,128 @@
+.about__container{
+    display: flex;
+    grid-template-columns: 35%, 50%;
+    gap: 15%;
+    align-items: center;
+
+}
+.about__img img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.about__img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center; 
+    border-radius: 2rem;
+}
+
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.about__article{
+    background: var(--color-bg-varient);
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    padding: 2rem ;
+    text-align: center;
+}
+.about__article:hover{
+    background: transparent;
+    border-color: var(--color-bg-varient);
+    cursor: pointer;
+}
+.about__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about__article h5{
+    font-size: 1rem;
+}
+.about__article small{
+    font-size: .9rem;
+    color: var(--color-light);
+}
+.about__description{
+    margin: 2rem 0 2.6rem;
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+        display: block;
+    }
+    .about__img img{
+        width: 80%;
+        height: 100%;
+    }
+    .about__img{
+        width: 40%;
+        margin: 2rem auto 4rem;
+    }
+    .about__description{
+        margin: 1rem 0 1rem;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .about__img{
+        width: 70%;
+        margin: 0 auto 3rem;
+    }
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+.about__content{
+    text-align: center;
+}
+.about__description{
+    margin: 1rem 1rem;
+}
+.about__img img{
+    width: 80%;
+}
+    
+}
+
+
+@media screen and (max-width:350px) {
+    .about__img{
+        width: 100%;
+    }
+    .about__img img{
+        width: 100%;
+    }
+    .about__cards{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .about__article{
+        background: var(--color-bg-varient);
+        border-radius: 1rem;
+        border: 2px solid transparent;
+        padding: 1rem ;
+        text-align: center;
+     
+    }
+    .about__description{
+       margin-top: 2rem;
+    }
+
+
+   
+}

@@ -1,0 +1,41 @@
+.achivement__container{
+    width: 50%;
+    padding-bottom: 5rem;
+}
+.achivement{
+    background: var(--color-bg-varient);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+  
+
+}
+
+.organisation__name{
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+   
+}
+.organisation__name small{
+    margin-bottom: 3rem;
+}
+.certificate__name{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+    .achivement__container{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .achivement__container{
+        width: var(--container-width-sm);
+    }
+    
+}
