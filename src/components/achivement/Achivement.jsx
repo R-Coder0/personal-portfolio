@@ -3,7 +3,7 @@ import "./Achivement.css";
 import C1 from "../../assets/certificate1.png";
 import C4 from "../../assets/certificate4.png";
 import C6 from "../../assets/certificate6.png";
-import C7 from "../../assets/certificate7.png";
+import C7 from "../../assets/JS CERTIFICATE.png";
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper'
