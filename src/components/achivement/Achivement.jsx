@@ -40,7 +40,7 @@ function Achivement() {
             <img src={C6} alt="" />
           </div>
           <h5 className="certificate__name">
-            Introduction to JavaScript.
+          Front-end Devlopment - CSS.
           </h5>
           <small className="organisation__name">Great Learning Academy</small>
         </SwiperSlide>
@@ -50,7 +50,7 @@ function Achivement() {
             <img src={C7} alt="" />
           </div>
           <h5 className="certificate__name">
-            Front-end Devlopment - CSS.
+            Advance Javascript.
           </h5>
           <small className="organisation__name">Great Learning Academy</small>
         </SwiperSlide>
