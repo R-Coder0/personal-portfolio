@@ -15,7 +15,7 @@ function Nav() {
    <nav>
     <a href="#" onClick={()=> setActiveNav('#')}  className={activeNav === '#' ? 'active':  ''}><AiFillHome/></a>
     <a href="#about" onClick={()=> setActiveNav('#about')}  className={activeNav === '#about' ? 'active':  ''}><BiUser/></a>
-    <a href="#experience" onClick={()=> setActiveNav('#experience')}  className={activeNav === '#experience' ? 'active':  ''}><TbCertificate/></a>
+    <a href="#achivement" onClick={()=> setActiveNav('#achivement')}  className={activeNav === '#achivement' ? 'active':  ''}><TbCertificate/></a>
     <a href="#services" onClick={()=> setActiveNav('#services')}  className={activeNav === '#services' ? 'active':  ''}><BiBookAlt/></a>
     <a href="#portfolio" onClick={()=> setActiveNav('#portfolio')}  className={activeNav === '#portfolio' ? 'active':  ''}><BiCodeAlt/></a>
     <a href="#contact" onClick={()=> setActiveNav('#contact')}  className={activeNav === '#contact' ? 'active':  ''}><RiContactsBook2Line/></a>

@@ -6,15 +6,17 @@ import {BsWhatsapp} from 'react-icons/bs'
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-function Contact() {
+function Contact(props) {
  const form = useRef();
-
+ 
  const sendEmail = (e) => {
+   props.showAlert("Message Sent Successfully","success")
   e.preventDefault();
 
   emailjs.sendForm('service_goonqvw', 'template_adnhlow', form.current, 'zUs7t2tu4WSeBjiO8')
     e.target.reset()
     console.log("Message sent")
+
 };
 
 
