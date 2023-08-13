@@ -30,6 +30,16 @@
     gap: 1.5rem;
     margin-bottom: 1rem;
 }
+#portfolio h5{   
+    text-align: center;
+    font-family: 'Lora', serif;
+color: rgb(189, 189, 189);
+}
+#portfolio h2{   
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: var(--color-primary);
+}
 
 @media screen and (max-width:1024px) {
     .portfolio__container{

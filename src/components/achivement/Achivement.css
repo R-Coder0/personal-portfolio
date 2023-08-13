@@ -25,7 +25,16 @@
     font-size: 1.1rem;
     padding-top: 1rem;
 }
-
+#achivement h5{   
+    text-align: center;
+    font-family: 'Lora', serif;
+color: rgb(189, 189, 189);
+}
+#achivement h2{   
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: var(--color-primary);
+}
 @media screen and (max-width:1024px) {
     .achivement__container{
         width: 60%;

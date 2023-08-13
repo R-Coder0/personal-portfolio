@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 .about__container{
     display: flex;
     grid-template-columns: 35%, 50%;
@@ -6,8 +8,8 @@
 
 }
 .about__img img{
-    height: 25rem;
-    width: 20rem;
+    height: 20rem;
+    width: 18rem;
     border-radius: 2rem;
     overflow: hidden;
 }
@@ -17,6 +19,7 @@
     display: grid;
     place-items: center; 
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 
@@ -44,15 +47,29 @@
 }
 .about__article h5{
     font-size: 1rem;
+    color: #fff;
 }
+
 .about__article small{
     font-size: .9rem;
-    color: var(--color-light);
+    color: #fff;
 }
 .about__description{
     margin: 2rem 0 2.6rem;
-    color: #fff;
+    color: #e5e5e5;
+    font-family: 'Lora', serif;
 }
+#about h5{   
+    text-align: center;
+    font-family: 'Lora', serif;
+color: rgb(189, 189, 189);
+}
+#about h2{   
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: var(--color-primary);
+}
+
 
 @media screen and (max-width:1024px) {
     .about__container{

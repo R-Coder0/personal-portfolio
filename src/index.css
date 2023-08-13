@@ -11,7 +11,7 @@
 }
 
 :root{
-  --color-bg: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  --color-bg: linear-gradient(to right, #d7d2cc 0%, #304352 0);
   --color-bg-varient:linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
   --color-primary:#4db5ff;
   --color-primary-varient:rgba(37, 150, 230, 0.4);
@@ -76,7 +76,7 @@ a:hover{
 .btn{
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: #058bec;
   padding:0.75rem 1.2rem;
   border-radius: .4rem;
   cursor: pointer;

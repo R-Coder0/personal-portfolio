@@ -52,7 +52,7 @@ function Services() {
 
         <article className="service">
             <div className="services__head">
-                <h3>Font-end Devlopment</h3>
+                <h3>Font-End Devlopment</h3>
             </div>
             <ul className="services__list">
                 <li>

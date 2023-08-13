@@ -47,6 +47,16 @@ input,textarea{
     resize: none;
     color: #fff;
 }
+#contact h5{   
+    text-align: center;
+    font-family: 'Lora', serif;
+color: rgb(189, 189, 189);
+}
+#contact h2{   
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: var(--color-primary);
+}
 
 @media screen and (max-width:1024px) {
     .container.contact__container{

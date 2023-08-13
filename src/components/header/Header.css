@@ -1,9 +1,12 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 header{
     padding-top: 4rem;
    
 }
 .header__img img{
-    height: 500px;
+    height: 432px;
+    border-radius: 183px;
+    width: 90%;
 }
 .header__img{
     text-align: center;
@@ -19,8 +22,17 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.head h5{
-    margin-top:  4rem;
+.head h1{
+    font-family: 'Lora', serif;
+}
+.head h3{
+    margin-top: 40px;
+    font-family: 'Lora', serif;
+}
+.head h4{
+    margin-top:  1rem;
+    font-family: 'Lora', serif;
+    font-size: 18px;
 }
 
 /*====cta====*/
@@ -30,7 +42,22 @@ header{
     justify-content: center;
     gap: 1.3rem;
 }
-
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding:0.75rem 1.2rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+  }
+  .btn:hover{
+    background:var(--color-bg);
+    color: var(--color-bg);
+    border-color: white;
+    scale: 1.1;
+  }
 /*====social====*/
 .Social{
     display: flex;
